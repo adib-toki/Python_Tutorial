@@ -1,11 +1,6 @@
-#Int Type Data
-adib = 15
-print(type(adib))
-
-#Float Type Data
-asif = 58.2
-print(type(asif))
-
-#Complex Type Data
-iqubal = 420j
-print(type(iqubal))
+#Str Type Data
+name = "Adib"
+print(name)
+full_name = "Asif Iqubal "
+print(full_name + name)
+print("My name is"+ ' ' + name)
