@@ -1,6 +1,8 @@
-#Str Type Data
-name = "Adib"
-print(name)
-full_name = "Asif Iqubal "
-print(full_name + name)
-print("My name is"+ ' ' + name)
+#Bool Type Data
+ex = False
+print(type(ex))
+xyz = True
+print(type(xyz))
+x = 10
+y = 10
+print(x == y)
