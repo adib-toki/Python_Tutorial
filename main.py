@@ -1,8 +1,7 @@
-#Bool Type Data
-ex = False
-print(type(ex))
-xyz = True
-print(type(xyz))
-x = 10
-y = 10
-print(x == y)
+#String Formatting
+a = 10
+b = 60
+print(f"This is my super number {a+b} & {b-a}")
+name = "Adib"
+roll = 7
+print(f"My name is {name} & and my Class Roll {roll}")
