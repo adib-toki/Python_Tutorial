@@ -1,6 +1,5 @@
-#Swapping
-x = 10
-y = 2
-x,y = y,x
-print("This value is now x = ",x)
-print("This value is now y = ",y)
+#User Input
+a = input("Enter Your username : ")
+b = input("Enter Your Password : ")
+print(a)
+print(b)
