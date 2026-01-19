@@ -1,13 +1,9 @@
-#Change List Item
-li = [1,2,3,4,5,6,7]
-print(li)
-print(li[2])
-
-a = ["apple", "banana", "cherry", "apple", "cherry"]
-print(a)
-a[3] = "watermelon"
+#Add List Item
+a = ["apple", "banana", "cherry"]
 print(a)
 
-b = [True,False,True,False,True]
-print(b)
-print(type(b))
+a.append("orange")
+print(a)
+
+a.insert(1,"watermelon")
+print(a)
