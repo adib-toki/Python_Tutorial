@@ -1,22 +1,12 @@
-#Remove List Item
-a = ["apple", "banana", "cherry","orange","apple","pear","Strawberry","blueberry","Grapes"]
-print(a)
+#Loop List
+a = ["Adib","Toki","Alamin","Esan","Anam"]
+for b in a:
+    print(b)
 
+for c in range(len(a)):
+    print(c)
 
-a.remove("blueberry")
-print(a)
-
-
-a.pop(4)
-print(a)
-
-a.pop()
-print(a)
-
-
-del a[1]
-print(a)
-
-
-a.clear()
-print(a)
+d = 0
+while d < len(a):
+    print(a[d])
+    d+=1
