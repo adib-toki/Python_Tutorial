@@ -1,12 +1,7 @@
-#Loop List
-a = ["Adib","Toki","Alamin","Esan","Anam"]
-for b in a:
-    print(b)
+#List Comprehension
+a = [1,2,3,4,5,6,7,8,9]
+for i in a:
+    print(i*2)
 
-for c in range(len(a)):
-    print(c)
-
-d = 0
-while d < len(a):
-    print(a[d])
-    d+=1
+b = [x*2 for x in a]
+print(b)
