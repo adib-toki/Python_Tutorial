@@ -1,7 +1,19 @@
-#List Comprehension
-a = [1,2,3,4,5,6,7,8,9]
-for i in a:
-    print(i*2)
+#Sort List
+num = [2,4,1,8,9,5,7,3,6]
+eng = ["a","m","i","t","e","d","b","v"]
 
-b = [x*2 for x in a]
-print(b)
+print(num)
+num.sort()
+print(num)
+
+print(eng)
+eng.sort()
+print(eng)
+
+print(num)
+num.sort(reverse=True)
+print(num)
+
+print(eng)
+eng.sort(reverse=True)
+print(eng)
