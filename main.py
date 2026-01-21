@@ -1,19 +1,6 @@
-#Sort List
-num = [2,4,1,8,9,5,7,3,6]
-eng = ["a","m","i","t","e","d","b","v"]
+#Copy a List
+num1 = [1,2,3,4,420]
+print(num1)
 
-print(num)
-num.sort()
-print(num)
-
-print(eng)
-eng.sort()
-print(eng)
-
-print(num)
-num.sort(reverse=True)
-print(num)
-
-print(eng)
-eng.sort(reverse=True)
-print(eng)
+num2 = num1.copy()
+print(num2)
