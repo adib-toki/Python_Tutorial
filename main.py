@@ -1,13 +1,16 @@
-#Update Tuple
-a = ("Apple","Orange","Kiwi")
-print(a)
-print(type(a))
+#Unpack Tuple
+fruits = ("apple", "banana", "cherry","kiwi")
 
-b = list(a)
-print(b)
-print(type(b))
-b.append("banana")
-print(b)
+(a,b,c,d) = fruits
+print(d)
 
-a = tuple(b)
-print(a)
+(*x,) = fruits
+print(x)
+
+(*z,y) = fruits
+print(z)
+print(y)
+
+(s,*f) = fruits
+print(f)
+print(s)
