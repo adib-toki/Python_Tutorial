@@ -1,10 +1,13 @@
-#Tuple Data Type
-x = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print(x)
-print(type(x))
+#Update Tuple
+a = ("Apple","Orange","Kiwi")
+print(a)
+print(type(a))
 
-print(x[0])
+b = list(a)
+print(b)
+print(type(b))
+b.append("banana")
+print(b)
 
-print(x[-2])
-
-print(x[4:7])
+a = tuple(b)
+print(a)
