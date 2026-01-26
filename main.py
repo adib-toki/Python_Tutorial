@@ -1,16 +1,16 @@
-#Unpack Tuple
+#Loop Tuple
 fruits = ("apple", "banana", "cherry","kiwi")
 
-(a,b,c,d) = fruits
-print(d)
+for i in fruits:
+    print(i)
 
-(*x,) = fruits
-print(x)
+for x in range(len(fruits)):
+    print(x)
 
-(*z,y) = fruits
-print(z)
-print(y)
+for z in range(len(fruits)):
+    print(fruits[z])
 
-(s,*f) = fruits
-print(f)
-print(s)
+a = 0
+while a < len(fruits):
+    print(fruits[a])
+    a+=1
