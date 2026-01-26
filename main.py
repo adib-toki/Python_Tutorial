@@ -1,16 +1,11 @@
-#Loop Tuple
-fruits = ("apple", "banana", "cherry","kiwi")
+#Join Tuple
+x = ("apple", "banana", "cherry","kiwi")
+y = ("Strawberry","Watermelon","Grapes")
 
-for i in fruits:
-    print(i)
+print(x+y)
 
-for x in range(len(fruits)):
-    print(x)
+a = x+y
+print(a)
 
-for z in range(len(fruits)):
-    print(fruits[z])
-
-a = 0
-while a < len(fruits):
-    print(fruits[a])
-    a+=1
+b = x*2
+print(b)
