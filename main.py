@@ -1,6 +1,7 @@
-#Set
-a = {2028,"Adib",True}
-print(a)
-print(type(a))
+#Access Set Item
+a = {1,2,3,4,5,6,7,8,9}
 
-print(len(a))
+for b in a:
+    print(b)
+
+print(7 in a)
