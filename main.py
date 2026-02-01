@@ -1,14 +1,5 @@
-#Remove Set Item
-a = {1,2,3,4,5,6,10,420}
+#Loop Set Item
+a = {"Asif","Iqubal","Adib"}
 
-a.remove(420)
-print(a)
-
-a.discard(39)
-print(a)
-
-a.pop()
-print(a)
-
-a.clear()
-print(a)
+for x in a:
+    print(x)
