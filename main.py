@@ -1,8 +1,33 @@
-#Join Set Item
-a = {1,2,3}
-b = {4,5,6}
+#Dictionaries Access
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
 
-print(a.union(b))
+info = {
+    "Adib":{
+    "Name": "Adib",
+    "School": "MZS",
+    "Class": 9,
+    "Roll": 67
+    },
+    "Toki":{
+        "Name": "Afif",
+        "Class": "Nersury",
+        "School": "FMS",
+        "Roll": 0
+    },
+    "year":2025
+}
 
-b.update(a)
-print(b)
+print(thisdict)
+
+print(info["year"])
+
+x = info.get("Adib")
+print(x)
+
+print(info.keys())
+
+print(info.values())
