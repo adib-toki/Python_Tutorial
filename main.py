@@ -1,5 +1,8 @@
-#Loop Set Item
-a = {"Asif","Iqubal","Adib"}
+#Join Set Item
+a = {1,2,3}
+b = {4,5,6}
 
-for x in a:
-    print(x)
+print(a.union(b))
+
+b.update(a)
+print(b)
