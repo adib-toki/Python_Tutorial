@@ -1,19 +1,14 @@
-#Add Set Item
-thisset = {"apple", "banana", "cherry"}
+#Remove Set Item
+a = {1,2,3,4,5,6,10,420}
 
-thisset.add("orange")
-print(thisset)
+a.remove(420)
+print(a)
 
+a.discard(39)
+print(a)
 
-x = {"apple", "banana", "cherry"}
-y = {"pineapple", "mango", "papaya"}
+a.pop()
+print(a)
 
-x.update(y)
-print(x)
-
-
-set1 = {1,2,3,4,5}
-list1 = [6,7,8,9,0]
-
-set1.update(list1)
-print(set1)
+a.clear()
+print(a)
